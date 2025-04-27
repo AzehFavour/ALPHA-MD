@@ -10,7 +10,7 @@ const AutoReactDB = config.DATABASE.define('autoreact', {
     emojis: {
         type: DataTypes.JSON,
         defaultValue: ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '😊', '🎊', '🎉', '🎁', '🎈', '👋'],
-        allowNull: false
+        allowNull: true
     }
 }, {
     timestamps: false
