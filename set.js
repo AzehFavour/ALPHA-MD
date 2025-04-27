@@ -27,14 +27,14 @@ const config = {
     GURL: process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
     EVENTS: process.env.EVENTS || "yes",    
     BOT: process.env.BOT_NAME || 'ALPHA_MD',
-    MODE: process.env.PUBLIC_MODE || "no",              
+    MODE: process.env.PUBLIC_MODE || "yes",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Douala", 
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     DP: process.env.STARTING_BOT_MESSAGE || "yes",
     ADM: process.env.ANTI_DELETE_MESSAGE || 'no',
     
     DATABASE_URL,
-    DATABASE: DATABASE_URL === databasePath
+    DATABASE: DATABASE_URL === https://alpha-md-3q1p.onrender.com
         ? new Sequelize({
             dialect: 'sqlite',
             storage: DATABASE_URL,
